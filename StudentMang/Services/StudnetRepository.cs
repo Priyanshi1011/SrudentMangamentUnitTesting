@@ -45,9 +45,9 @@ namespace StudentMang.Services
 
         public bool ThisCustomerExists(int id)
         {
-            foreach (Student cust in _spaContext.Students)
+            foreach (Student stud in _spaContext.Students)
             {
-                if (cust.Id == id)
+                if (stud.Id == id)
                     return true;
             }
             return false;

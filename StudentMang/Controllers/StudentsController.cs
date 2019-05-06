@@ -52,6 +52,7 @@ namespace StudentMang.Controllers
             }
         }
 
+
         // GET: Students/Edit/5
         public ActionResult Edit(int id)
         {
